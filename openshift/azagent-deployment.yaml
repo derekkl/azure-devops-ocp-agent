@@ -10,6 +10,7 @@ parameters:
 - description: Namespace
   name: NAMESPACE
   required: true
+  value: "derekpipeline"
 - description: Image to use
   name: IMAGE
   required: false
