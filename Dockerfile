@@ -1,6 +1,6 @@
 FROM registry.access.redhat.com/ubi8/ubi:latest 
 # These should be set to interact with Azure service
-ENV AZP_URL=https://dev.azure.com/CableOne-ProductDevelopers/DevOpsDerek
+ENV AZP_URL=https://dev.azure.com/CableOne-ProductDevelopers/
 ENV AZP_POOL="DerekTest"
 ENV AZP_TOKEN=76mpwboxojlfkwtzd5zcihcv22qnxfjzgi5azcvdbgywqudwo2jq
 ENV AZP_AGENT_NAME=myagent
